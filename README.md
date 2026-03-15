@@ -45,7 +45,7 @@ https://physionet.org/lightwave/?db=brugada-huca/1.0.0
 
    ```bash
    # Menggunakan venv
-   python -m venv venv
+   python -m venv .venv
 
    # Activate virtual environment
    # Untuk Linux/Mac:
