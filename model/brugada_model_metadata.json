@@ -1,0 +1,38 @@
+{
+  "threshold": 0.5,
+  "features": [
+    "ST_V1_elevation",
+    "ST_V2_elevation",
+    "ST_V3_elevation",
+    "ST_V1_slope",
+    "ST_V1_curvature",
+    "ST_V2_slope",
+    "ST_V2_curvature",
+    "T_V1_amplitude",
+    "T_V2_amplitude",
+    "T_V3_amplitude",
+    "QRS_duration_ms",
+    "QRS_amplitude_V1",
+    "ST_V1_V2_ratio",
+    "ST_V2_V3_ratio",
+    "ST_T_ratio_V1",
+    "ST_T_ratio_V2"
+  ],
+  "performance": {
+    "accuracy": 0.85,
+    "sensitivity": 0.8,
+    "specificity": 0.862,
+    "precision": 0.6,
+    "f1_score": 0.686,
+    "roc_auc": 0.867816091954023
+  },
+  "best_params": {
+    "xgb__colsample_bytree": 0.7,
+    "xgb__gamma": 0.1,
+    "xgb__learning_rate": 0.1,
+    "xgb__max_depth": 7,
+    "xgb__min_child_weight": 1,
+    "xgb__n_estimators": 200,
+    "xgb__subsample": 0.7
+  }
+}

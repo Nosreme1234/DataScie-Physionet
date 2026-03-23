@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-03-19-112152",
+    "model_type": "XGBClassifier",
+    "best_params": {
+        "xgb__colsample_bytree": 0.7,
+        "xgb__gamma": 0.5,
+        "xgb__learning_rate": 0.05,
+        "xgb__max_depth": 8,
+        "xgb__min_child_weight": 1,
+        "xgb__n_estimators": 300,
+        "xgb__scale_pos_weight": 3.776315789473684,
+        "xgb__subsample": 0.7
+    },
+    "performance": {
+        "accuracy": 0.8695652173913043,
+        "sensitivity": 0.7,
+        "specificity": 0.75,
+        "precision": 0.4375,
+        "f1_score": 0.7272727272727273,
+        "roc_auc": 0.8444444444444443
+    },
+    "best_cv_score": 0.8157017884076707,
+    "training_samples": 317,
+    "test_samples": 46,
+    "feature_count": 46
+}
