@@ -55,3 +55,7 @@ hasil/
 *.h5
 *.pth
 *.model
+# folder logs
+/model
+/trash
+
