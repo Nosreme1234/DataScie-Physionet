@@ -1,7 +1,5 @@
 # Brugada Detection from ECG Signals
 
----
-
 A machine learning project for detecting Brugada Syndrome from electrocardiogram (ECG) signals. Built for the **International Data Science Challenge 2026** with the theme _Mathematics for Hope in Healthcare_.
 
 ## Overview
