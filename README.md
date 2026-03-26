@@ -21,9 +21,6 @@ DataScie-Physionet/
 │   ├── metadata_dictionary.csv        # Data dictionary
 │   ├── RECORDS                        # File index
 │   └── files/                         # ECG signal files (patient records)
-└── model/                             # Trained models & configurations
-    ├── brugada_model_metadata.json    # Best model performance metrics
-    └── best_model/                    # Serialized model files
 ```
 
 ## Dataset Structure
